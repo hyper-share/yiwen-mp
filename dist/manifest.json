@@ -1,0 +1,84 @@
+{
+  "manifest_version": 3,
+  "name": "易文 - 微信文章助手",
+  "short_name": "易文",
+  "version": "1.0.0",
+  "description": "公众号创作者的全能AI助手 — AI写作、一键排版、素材中心、多平台分发，让创作从3小时缩短到30分钟",
+  "author": "YiWen Team",
+  "icons": {
+    "16": "src/assets/icons/icon-16.png",
+    "32": "src/assets/icons/icon-32.png",
+    "48": "src/assets/icons/icon-48.png",
+    "128": "src/assets/icons/icon-128.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "contextMenus",
+    "alarms",
+    "scripting",
+    "webNavigation",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "assets/index.ts-loader-BnX3YKiB.js"
+      ],
+      "matches": [
+        "https://mp.weixin.qq.com/*"
+      ],
+      "css": [
+        "src/content/styles/content.css",
+        "assets/index-CMExaCWK.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_title": "易文 - 微信文章助手"
+  },
+  "options_page": "src/options/index.html",
+  "commands": {
+    "ai-format": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F"
+      },
+      "description": "AI一键排版"
+    },
+    "toggle-sidebar": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+T"
+      },
+      "description": "打开/关闭侧边栏"
+    }
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "https://mp.weixin.qq.com/*"
+      ],
+      "resources": [
+        "assets/icon-48-DOSfG4a_.png",
+        "assets/vue-vendor-CJ8EqeRd.js",
+        "assets/pinia-DsnfOFzm.js",
+        "assets/naive-ui-Q1syN5aT.js",
+        "assets/prompts-Ch6LaaZM.js",
+        "assets/index.ts-DOuHiR6Q.js"
+      ],
+      "use_dynamic_url": false
+    }
+  ]
+}
