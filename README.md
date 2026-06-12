@@ -2,7 +2,38 @@
 
 > 公众号创作者的全能 AI 助手 —— AI 写作、一键排版、素材中心、合规检测、多平台分发，让创作从 3 小时缩短到 30 分钟。
 
-易文是一款 Chrome内核 浏览器扩展，在微信公众号后台编辑器中嵌入侧边栏，提供 AI 驱动的写作辅助、排版美化、素材管理、数据分析、合规检查和多平台一键分发能力。
+易文是一款 Chrome 浏览器扩展，在微信公众号后台编辑器中嵌入侧边栏，提供 AI 驱动的写作辅助、排版美化、素材管理、数据分析、合规检查和多平台一键分发能力。
+
+## 📸 功能截图
+
+<table>
+  <tr>
+    <td align="center"><b>✍️ AI 写作</b></td>
+    <td align="center"><b>🎨 一键排版</b></td>
+    <td align="center"><b>📦 素材中心</b></td>
+  </tr>
+  <tr>
+    <td><img src="images/write.png" alt="AI 写作" width="300" /></td>
+    <td><img src="images/layout.png" alt="一键排版" width="300" /></td>
+    <td><img src="images/material.png" alt="素材中心" width="300" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>📊 数据分析</b></td>
+    <td align="center"><b>🔍 文章诊断</b></td>
+    <td align="center"><b>📤 多平台分发</b></td>
+  </tr>
+  <tr>
+    <td><img src="images/data.png" alt="数据分析" width="300" /></td>
+    <td><img src="images/diagnosis.png" alt="文章诊断" width="300" /></td>
+    <td><img src="images/distribute.png" alt="多平台分发" width="300" /></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="3"><b>⚙️ 设置页面</b></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="3"><img src="images/setting.png" alt="设置页面" width="300" /></td>
+  </tr>
+</table>
 
 ## ✨ 核心功能
 
@@ -95,3 +126,7 @@ Private - All Rights Reserved
 
 - [GitHub Issues](https://github.com/hyper-share/yiwen-mp/issues) — 提交 Bug 或功能建议
 - 邮箱：GodHyper@163.com
+
+## ⚡ 支持作者
+
+如果易文对你有帮助，欢迎 [为我充电](https://www.afdian.com/a/aiyiwen) ☕，你的支持是持续迭代的动力！
