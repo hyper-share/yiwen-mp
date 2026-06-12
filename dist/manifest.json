@@ -31,14 +31,14 @@
   "content_scripts": [
     {
       "js": [
-        "assets/index.ts-loader-BnX3YKiB.js"
+        "assets/index.ts-loader-Bu6WspVR.js"
       ],
       "matches": [
         "https://mp.weixin.qq.com/*"
       ],
       "css": [
         "src/content/styles/content.css",
-        "assets/index-CMExaCWK.css"
+        "assets/index-B6tXw3dZ.css"
       ],
       "run_at": "document_idle"
     }
@@ -76,7 +76,7 @@
         "assets/pinia-DsnfOFzm.js",
         "assets/naive-ui-Q1syN5aT.js",
         "assets/prompts-Ch6LaaZM.js",
-        "assets/index.ts-DOuHiR6Q.js"
+        "assets/index.ts-yGZdVcG3.js"
       ],
       "use_dynamic_url": false
     }
