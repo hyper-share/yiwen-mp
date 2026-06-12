@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "易文 - 微信文章助手",
+  "name": "易文 - 微信公众号文章助手",
   "short_name": "易文",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "公众号创作者的全能AI助手 — AI写作、一键排版、素材中心、多平台分发，让创作从3小时缩短到30分钟",
   "author": "YiWen Team",
   "icons": {
